@@ -4,19 +4,25 @@
     <meta charset="UTF-8">
     <title>Suites dans un espace vectoriel normé</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="icon.png">
+    <meta name="author" content="Fadoua & Jalila">
+    <meta name="date" content="2026-01-30">
+    <meta name="keywords" content="Fonction, Limite, Continuité, EVN">
+    <meta name="description" content="Éléments d'analyse des fonctions entre EVN">
 </head>
 
 <body>
-
+<header>
 <nav>
     <h2>Sommaire</h2>
     <ul>
         <li><a href="index.html">Suites</a></li>
-        <li><a href="#proprietes">Fonction d'un EVN</a></li>
-        <li><a href="#exercices">Continuité</a></li>
-        <li><a href="#adherence">Compacité</a></li>
+        <li><a href="fonction.html">Fonction d'un EVN</a></li>
+        <li><a href="continuite.html">Continuité</a></li>
+        <li><a href="compacite.html">Compacité</a></li>
     </ul>
 </nav>
+</header>
 
 <section>
     <h1>Suites dans un espace vectoriel normé</h1>
@@ -27,7 +33,7 @@
         <h3>Suite dans un EVN</h3>
         <p>
             Soit <strong>(E, ‖·‖)</strong> un espace vectoriel normé.
-            Une suite de <strong>E</strong> est une application de ℕ dans E.
+            Une suite de <strong>E</strong> est une application de R dans E.
         </p>
 
         <h3>Convergence</h3>
@@ -61,6 +67,47 @@
             <li>Produit par un scalaire</li>
             <li>Suite bornée multipliée par une suite tendant vers 0</li>
         </ul>
+
+        <article id="tableau-proprietes">
+    <h2>Tableau récapitulatif des propriétés</h2>
+    <table border="1" cellspacing="0" cellpadding="5">
+        <thead>
+            <tr>
+                <th>Propriété</th>
+                <th>Description</th>
+                <th>Exemple</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Unicité de la limite</td>
+                <td>Une suite ne peut admettre qu’une seule limite.</td>
+                <td>(uₙ) = 1/n tend vers 0</td>
+            </tr>
+            <tr>
+                <td>Suite bornée</td>
+                <td>Toute suite convergente est bornée.</td>
+                <td>(uₙ) = (-1)^n / n est bornée et converge vers 0</td>
+            </tr>
+            <tr>
+                <td>Somme de suites convergentes</td>
+                <td>La somme de deux suites convergentes converge vers la somme de leurs limites.</td>
+                <td>(Un + Vn) tend vers lim(Un) + lim(Vn)</td>
+            </tr>
+            <tr>
+                <td>Produit par un scalaire</td>
+                <td>Si (uₙ) tend vers l et y appartenant à R, alors y·Un tend vers y·l.</td>
+                <td>2·(1/n) tend vers 0</td>
+            </tr>
+            <tr>
+                <td>Suite bornée x suite tendant vers 0</td>
+                <td>Le produit d’une suite bornée et d’une suite convergeant vers 0 tend vers 0.</td>
+                <td>((-1)^n)·(1/n) tend vers 0</td>
+            </tr>
+        </tbody>
+    </table>
+    </article>
+
     </article>
 
     <article id="exercices">
@@ -84,6 +131,12 @@
         </p>
     </article>
 </section>
+
+<footer>
+    <span><strong>Noms :</strong> Tahour Jalila, Fadoua Zaroili</span> |
+    <span><strong>Date :</strong> 30 janvier 2026</span> |
+    <span><strong>Contexte :</strong> Développement Web TD 3</span>
+</footer>
 
 </body>
 </html>

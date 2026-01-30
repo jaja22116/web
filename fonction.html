@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Fonctions dans un espace vectoriel normé</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="icon.png">
+    <meta name="author" content="Fadoua & Jalila">
+    <meta name="date" content="2026-01-30">
+    <meta name="keywords" content="Fonction, Limite, Continuité, EVN">
+    <meta name="description" content="Éléments d'analyse des fonctions entre EVN">
+</head>
+
+<body>
+<header>
+<nav>
+    <h2>Sommaire</h2>
+    <ul>
+        <li><a href="index.html">Suites</a></li>
+        <li><a href="fonction.html">Fonction d'un EVN</a></li>
+        <li><a href="continuite.html">Continuité</a></li>
+        <li><a href="compacite.html">Compacité</a></li>
+    </ul>
+</nav>
+</header>
+
+<section>
+    <h1>Fonctions définies d’un EVN à valeur dans un EVN</h1>
+
+    <article id="definitions">
+        <h2>Définition</h2>
+        <p>
+            Soient <strong>(E, |.|)</strong> et <strong>(F, |.|F)</strong> deux espaces vectoriels normés,
+            avec <em>dE</em> et <em>dF</em> les distances associées. Soient X ⊆ E, a ∈ X̄ et f : X → F.
+        </p>
+        <p>
+            <strong>Définition :</strong> f admet l pour limite en a si :
+        </p>
+        <p>
+            Pour tout e>0, il existe n > 0, pout tout x appartenant à X, |x-a|E ⩽ η ⇒ |f(x)-l|F <= e.
+        </p>
+        <p>On note alors <strong>lim<sub>x→a</sub> f(x) = l</strong>.</p>
+        <p>
+            Cette définition est locale et équivalente à :
+            <ul>
+                <li>Il existe un voisinage V de a tel que f|V admet l pour limite en a.</li>
+                <li>Pour tout voisinage V de a, la restriction f|V admet l pour limite en a.</li>
+            </ul>
+        </p>
+    </article>
+
+    <article id="proprietes">
+        <h2>Propriétés et propositions</h2>
+
+        <p>Quelques propriétés importantes :</p>
+        <ul>
+            <li>Si f admet l1 et l2 comme limites en a, alors l1 = l2.</li>
+            <li>Si f admet une limite finie en a, alors f est bornée au voisinage de a.</li>
+            <li>f admet l pour limite en a si et seulement si pour toute suite (Un) dans X telle que Un tend vers a, on a f(Un) tend vers l.</li>
+        </ul>
+
+        <p>Théorèmes :</p>
+        <ul>
+            <li><strong>Théorème des gendarmes :</strong> Si f(x) <= g(x) <= h(x) et f, h tendent vers l en a, alors g tend vers l en a.</li>
+            <li><strong>Composition des limites :</strong> Si f : X dans F et g : Y dans G avec f(X) inclus ou est égal à Y, 
+                f tend vers b en a et g tend vers l en b, alors g°f tend vers l en a.</li>
+        </ul>
+    </article>
+
+    <article id="illustration">
+        <h2>Illustration</h2>
+        <p>Voici un schéma illustrant la limite d’une fonction dans un EVN :</p>
+        <img src="limite.gif" alt="Illustration fonction EVN" >
+    </article>
+
+    <article id="remarques">
+        <h2>Remarques</h2>
+        <p>
+            Cette définition généralise celle d’une fonction de R dans R. On peut aussi considérer des sous-ensembles
+            X' inclus ou est égal à X et des restrictions f|X'.
+        </p>
+        <p>
+            Exemples : f : [-1,1] dans R bornée mais sans limite en 0, ou g : [-1,1] dans R strictement croissante sans limite en 0.
+        </p>
+    </article>
+</section>
+
+<footer>
+    <span><strong>Noms :</strong> Tahour Jalila, Fadoua Zaroili</span> |
+    <span><strong>Date :</strong> 30 janvier 2026</span> |
+    <span><strong>Contexte :</strong> Développement Web TD 3</span>
+</footer>
+
+</body>
+</html>
