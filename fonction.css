@@ -1,0 +1,74 @@
+
+body {
+    background-color: white;
+    color: black;
+    font-family: "Times New Roman", serif;
+}
+
+
+h1 {
+    color: purple;
+    text-align: center;
+    font-weight: bold;
+}
+
+h2 {
+    color: navy;
+    text-decoration: underline;
+}
+
+h3 {
+    color: green;
+}
+
+
+nav {
+    background-color: silver;
+}
+
+nav li {
+    background-color: white;
+}
+
+nav a {
+    text-decoration: none;
+    color: navy;
+}
+
+nav a:visited {
+    color: purple;
+}
+
+nav a:hover {
+    color: red;
+}
+
+p {
+    font-size: 12pt;
+    text-align: justify;
+    text-indent: 20px;
+}
+
+
+ul {
+    color: black;
+}
+
+
+#illustration {
+    background-color: aqua;
+    text-align: center;
+}
+
+#remarques {
+    background-color: silver;
+    font-style: italic;
+}
+
+
+footer {
+    background-color: navy;
+    color: white;
+    text-align: center;
+    font-size: small;
+}

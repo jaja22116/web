@@ -1,0 +1,88 @@
+
+body {
+    background-image: url("math.jpeg");
+    color: black;
+    font-family: arial, sans-serif;
+}
+
+
+h1 {
+    color: navy;
+    text-align: center;
+    font-weight: bold;
+}
+
+h2 {
+    color: maroon;
+    text-align: left;
+}
+
+h3 {
+    color: teal;
+    font-style: italic;
+}
+
+
+nav {
+    background-color: gray;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav li {
+    background-color: silver;
+}
+
+nav a {
+    text-decoration: none;
+    color: blue;
+}
+
+nav a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+p {
+    color: black;
+    font-size: 12pt;
+    text-align: justify;
+    text-indent: 20px;
+}
+
+ul {
+    color: black;
+}
+
+#definitions {
+    background-color: white;
+}
+
+#proprietes {
+    background-color: aqua;
+}
+
+#exercices {
+    background-color: white;
+}
+
+
+table {
+    background-color: white;
+    color: black;
+}
+
+th {
+    background-color: gray;
+    color: white;
+}
+
+
+footer {
+    background-color: gray;
+    color: white;
+    text-align: center;
+    font-size: small;
+}
