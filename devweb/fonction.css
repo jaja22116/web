@@ -1,0 +1,85 @@
+
+body {
+    background-image: url("./images/math.avif"); 
+    background-color: white;        
+    background-size: cover;            
+    background-position: center;
+    color: black;
+    font-family: arial, sans-serif;
+}
+
+h1 {
+    font-size: 32px;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+}
+
+h2 {
+    color: maroon;
+    text-align: left;
+}
+
+h3 {
+    color: teal;
+    font-style: italic;
+}
+
+
+nav {
+    background-color: gray;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    background-color: silver;
+    display: inline-block;
+    padding: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+}
+
+
+p {
+    font-size: 12pt;
+    text-align: justify;
+    text-indent: 20px;
+}
+
+ul {
+    color: black;
+}
+
+#definitions,
+#proprietes,
+#illustration,
+#remarques {
+    background-color: white; 
+    padding: 10px;
+    margin-top: 30px;
+    border-radius: 5px;        
+}
+
+
+#illustration {
+    text-align: center;
+}
+
+
+footer {
+    background-color: gray;
+    color: white;
+    text-align: center;
+    font-size: small;
+    padding: 10px;
+    margin-top: 30px;
+}

@@ -1,0 +1,105 @@
+
+body {
+    background-image: url("./images/math.avif");
+    background-color: white;
+    color: black;
+    font-family: arial, sans-serif;
+}
+
+
+h1 {
+    font-size: 32px;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+}
+
+h2 {
+    color: maroon;
+    text-align: left;
+}
+
+h3 {
+    color: teal;
+    font-style: italic;
+}
+
+
+nav {
+    background-color: gray;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    background-color: silver;
+    display: inline-block;
+    padding: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+}
+
+
+p {
+    color: black;
+    font-size: 12pt;
+    text-align: justify;
+    text-indent: 20px;
+}
+
+ul {
+    color: black;
+}
+
+#definitions {
+    background-color: white;
+    padding: 10px;
+}
+
+#proprietes {
+    background-color: white;
+    padding: 10px;
+    margin-top : 10px;
+    margin-bottom: 10px;
+}
+
+#exercices {
+    background-color: white;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+#adherence {
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+table {
+    background-color: white;
+    color: black;
+    width: 100%;
+}
+
+th {
+    background-color: gray;
+    color: white;
+}
+
+footer {
+    background-color: gray;
+    color: white;
+    text-align: center;
+    font-size: small;
+    padding: 10px;
+    margin-top: 30px;
+}
