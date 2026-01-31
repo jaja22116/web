@@ -1,13 +1,15 @@
 
 body {
-    background-image: url("math.jpeg");
+    background-image: url("./images/math.avif");
+    background-color: white;
     color: black;
     font-family: arial, sans-serif;
 }
 
 
 h1 {
-    color: navy;
+    font-size: 32px;
+    color: black;
     text-align: center;
     font-weight: bold;
 }
@@ -25,25 +27,26 @@ h3 {
 
 nav {
     background-color: gray;
+    text-align: center;
 }
 
 nav ul {
     list-style-type: none;
+    padding: 0;
 }
 
 nav li {
     background-color: silver;
+    display: inline-block;
+    padding: 10px;
 }
 
 nav a {
     text-decoration: none;
     color: blue;
+    font-weight: bold;
 }
 
-nav a:hover {
-    color: red;
-    text-decoration: underline;
-}
 
 p {
     color: black;
@@ -58,20 +61,33 @@ ul {
 
 #definitions {
     background-color: white;
+    padding: 10px;
 }
 
 #proprietes {
-    background-color: aqua;
+    background-color: white;
+    padding: 10px;
+    margin-top : 10px;
+    margin-bottom: 10px;
 }
 
 #exercices {
     background-color: white;
+    padding: 10px;
+    margin-top: 30px;
 }
 
+#adherence {
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
 
 table {
     background-color: white;
     color: black;
+    width: 100%;
 }
 
 th {
@@ -79,10 +95,11 @@ th {
     color: white;
 }
 
-
 footer {
     background-color: gray;
     color: white;
     text-align: center;
     font-size: small;
+    padding: 10px;
+    margin-top: 30px;
 }
